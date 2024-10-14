@@ -68,11 +68,32 @@ public class Trigo {
         System.out.println(t2);
         System.out.println(t3);
         
+        // Test getters & setter.
+        System.out.println("Precio: " + t1.getPrecioVenta());
+        System.out.println("Duración de la producción: " + t1.getDuracionProduccion());
+        System.out.println("EXP: " + t1.getExperienciaRecolecta());
+        System.out.println("Path del icono: " + t1.getIcono());
+        
  
     }
-    
-   
-     
 
+    public String getIcono() {
+        return icono;
+    }
 
+    public int getDuracionProduccion() {
+        return duracionProduccion;
+    }
+
+    public int getExperienciaRecolecta() {
+        return experienciaRecolecta;
+    }
+
+    public int getPrecioVenta() {
+        return precioVenta;
+    }
+
+    public int getRiego() {
+        return riego;
+    }
 }

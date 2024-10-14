@@ -74,7 +74,38 @@ public class Trigo {
         System.out.println("EXP: " + t1.getExperienciaRecolecta());
         System.out.println("Path del icono: " + t1.getIcono());
         
+       t1.setPrecioVenta(5);
+       System.out.println("Precio: " + t1.getPrecioVenta());
+       
+       t1.setDuracionProduccion(10);
+       System.out.println("Duración de la producción: " + t1.getDuracionProduccion());
+       
+       t1.setExperienciaRecolecta(50);
+       System.out.println("EXP: " + t1.getExperienciaRecolecta());
+        
+       System.out.println(t1);
+        
  
+    }
+
+    public void setIcono(String icono) {
+        this.icono = icono;
+    }
+
+    public void setDuracionProduccion(int duracionProduccion) {
+        this.duracionProduccion = duracionProduccion;
+    }
+
+    public void setExperienciaRecolecta(int experienciaRecolecta) {
+        this.experienciaRecolecta = experienciaRecolecta;
+    }
+
+    public void setPrecioVenta(int precioVenta) {
+        this.precioVenta = precioVenta;
+    }
+
+    public void setRiego(int riego) {
+        this.riego = riego;
     }
 
     public String getIcono() {
